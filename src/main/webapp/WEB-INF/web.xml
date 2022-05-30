@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserServletController</servlet-name>
+  	<display-name>UserServletController</display-name>
+  	<description></description>
+  	<servlet-class>net.usermanagement.controller.UserServletController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserServletController</servlet-name>
+  	<url-pattern>/UserServletController</url-pattern>
+  </servlet-mapping>
 </web-app>
